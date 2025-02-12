@@ -14,7 +14,6 @@ module com.example.institute1 {
 
     // Exports for external use
     exports com.example.institute1.controller;
-    exports com.example.institute1.model;
     exports com.example.institute1.Main;
 
     // Open only when reflection is necessary
