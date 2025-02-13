@@ -97,8 +97,8 @@ public class ForgotpassController implements Initializable {
     }
 
     private void sendEmail(String to, String otp) throws MessagingException {
-        final String FROM = "hasiduudara@gmail.com";
-        final String PASSWORD = "bkfqvkbzogkkdaku";
+        final String FROM = "abc@gmail.com";
+        final String PASSWORD = "1234";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
